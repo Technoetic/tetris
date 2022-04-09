@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function App() {
-  const [column, setColumn] = useState(4);
+  const [column, setColumn] = useState(3);
   const [row, setRow] = useState(10);
   const [level, setLevel] = useState("easy");
   const MapTile = () => {
